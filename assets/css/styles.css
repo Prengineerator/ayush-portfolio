@@ -440,7 +440,25 @@ input {
   font-weight: var(--weight-400);
 }
 
+.color-first {
+  color: var(--first-color)
+}
 /*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--container-color);
+  padding-block: 2rem;
+}
+
+.footer__container {
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+}
+
+.footer__logo {
+  color: var(--title-color);
+  font-size: 2.5rem;
+  font-weight: var(--weight-700);
+}
 
 /*=============== SCROLL UP ===============*/
 
