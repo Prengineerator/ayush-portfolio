@@ -11,7 +11,15 @@
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
+function scrollHeader() {
+    const header = document.getElementById('header');
+    //when the scroll is greater than 80 viewport height, add the scroll-header to class header tag
 
+    if(this.scrollY >= 80) header.classList.add('scroll-header');
+    else header.classList.remove('scroll-header');
+}
+
+window.addEventListener('scroll', scrollHeader);
 /*==================== SHOW SCROLL UP ====================*/
 
 /*==================== ABOUT TABS ====================*/
