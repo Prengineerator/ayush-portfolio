@@ -98,7 +98,7 @@ const sendEmail = (e) => {
         errorMessage.textContent = 'Write all the input fields'
     }
     else {
-        emailjs.sendForm('service_5tjqfph','template_b54xe3l','#contact-form','nK732mfKmCJbU0Dhl')
+        emailjs.sendForm('service_545v702','template_en6qyey','#contact-form')
         .then(()=>{
             errorMessage.classList.add('color-first');
             errorMessage.textContent = 'Message Sent ✓';
